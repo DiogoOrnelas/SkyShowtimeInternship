@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+  <integer name="search_colums"> 3  </integer>
+  <integer name="pdp_colums"> 2  </integer>
+
+    
+    
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".ui.ui.SearchFragment"
+    tools:layout="@layout/rail_cell">
+
+    <SearchView
+        android:id="@+id/idSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_rounded"
+        android:backgroundTint="#444"
+        android:focusable="true"
+        android:layout_margin="8dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/queryHint"
+        android:padding="4dp"
+        android:searchIcon="@drawable/ic_search"
+        android:submitBackground="@drawable/bg_white_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tvEmpty"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/idSV"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/noResults"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:focusable="false"
+        android:paddingTop="10dp"
+        android:id="@+id/rcResults"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/idSV"
+        app:layout_constraintBottom_toBottomOf="parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

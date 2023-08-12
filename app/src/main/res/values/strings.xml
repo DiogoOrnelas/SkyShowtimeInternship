@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SkyShowtime</string>
+    <string name="queryHint">Search</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="player">Player</string>
+    <string name="pdp">Details</string>
+    <string name="watch">WATCH</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="noResults">Look something up!!</string>
+</resources>

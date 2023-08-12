@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="result_height">150dp</dimen>
+    <dimen name="recommend_width">370dp</dimen>
+    <dimen name="recommend_height">210dp</dimen>
+
+</resources>
